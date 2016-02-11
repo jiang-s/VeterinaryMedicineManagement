@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/id_top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#FFAD01"
+        android:clipChildren="true" >
+        
+        <TextView 
+            android:id="@+id/id_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingTop="15dp"
+            android:text="所有记录"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            />
+        
+        <ImageView 
+            android:layout_width="27dp"
+        	android:layout_height="21dp"
+        	android:scaleType="centerCrop"
+        	android:id="@+id/id_camera"
+        	android:src="@drawable/camera"
+        	android:layout_centerVertical="true"
+        	android:layout_alignParentRight="true"
+        	android:layout_marginRight="10dp" />
+        
+        <ImageView 
+            android:layout_width="24dp"
+        	android:layout_height="24dp"
+        	android:scaleType="centerCrop"
+        	android:id="@+id/id_add"
+        	android:src="@drawable/add"
+        	android:layout_centerVertical="true"
+        	android:layout_toLeftOf="@id/id_camera"
+        	android:layout_marginRight="12dp" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_top_layout"
+        android:background="#ffffff" >
+
+        <ListView
+            android:id="@+id/id_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#eee3d9"
+            android:dividerHeight="1px" >
+        </ListView>
+        
+    </RelativeLayout>
+
+</RelativeLayout>
