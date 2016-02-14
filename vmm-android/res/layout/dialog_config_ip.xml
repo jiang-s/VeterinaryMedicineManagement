@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ipForm"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/id_ip"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+	    android:digits="1234567890."
+        android:padding="15dp"
+        android:selectAllOnFocus="true" />
+
+</TableLayout>

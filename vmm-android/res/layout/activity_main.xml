@@ -6,7 +6,7 @@
     <RelativeLayout
         android:id="@+id/id_top_layout"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:layout_alignParentTop="true"
         android:background="#FFAD01"
         android:clipChildren="true" >
@@ -14,17 +14,17 @@
         <TextView 
             android:id="@+id/id_title"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_centerInParent="true"
-            android:paddingTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="所有记录"
-            android:textSize="20sp"
+            android:textSize="24sp"
             android:textColor="@android:color/white"
             />
         
         <ImageView 
-            android:layout_width="27dp"
-        	android:layout_height="21dp"
+            android:layout_width="30dp"
+        	android:layout_height="23dp"
         	android:scaleType="centerCrop"
         	android:id="@+id/id_camera"
         	android:src="@drawable/camera"
@@ -33,14 +33,24 @@
         	android:layout_marginRight="10dp" />
         
         <ImageView 
-            android:layout_width="24dp"
-        	android:layout_height="24dp"
+            android:layout_width="27dp"
+        	android:layout_height="27dp"
         	android:scaleType="centerCrop"
         	android:id="@+id/id_add"
         	android:src="@drawable/add"
         	android:layout_centerVertical="true"
         	android:layout_toLeftOf="@id/id_camera"
-        	android:layout_marginRight="12dp" />
+        	android:layout_marginRight="14dp" />
+        
+        <ImageView 
+            android:layout_width="27dp"
+        	android:layout_height="27dp"
+        	android:scaleType="centerCrop"
+        	android:id="@+id/id_settings"
+        	android:src="@drawable/settings"
+        	android:layout_centerVertical="true"
+        	android:layout_alignParentLeft="true"
+        	android:layout_marginLeft="12dp" />
         
     </RelativeLayout>
 

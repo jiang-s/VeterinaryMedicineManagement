@@ -1,0 +1,14 @@
+eclipse.preferences.version=1
+encoding//src/com/js/vmm/zxing/activity/CaptureActivity.java=UTF-8
+encoding//src/com/js/vmm/zxing/activity/ResultActivity.java=UTF-8
+encoding//src/com/js/vmm/zxing/camera/AutoFocusManager.java=UTF-8
+encoding//src/com/js/vmm/zxing/camera/CameraConfigurationManager.java=UTF-8
+encoding//src/com/js/vmm/zxing/camera/CameraManager.java=UTF-8
+encoding//src/com/js/vmm/zxing/camera/PreviewCallback.java=UTF-8
+encoding//src/com/js/vmm/zxing/camera/open/OpenCameraInterface.java=UTF-8
+encoding//src/com/js/vmm/zxing/decode/DecodeFormatManager.java=UTF-8
+encoding//src/com/js/vmm/zxing/decode/DecodeHandler.java=UTF-8
+encoding//src/com/js/vmm/zxing/decode/DecodeThread.java=UTF-8
+encoding//src/com/js/vmm/zxing/utils/BeepManager.java=UTF-8
+encoding//src/com/js/vmm/zxing/utils/CaptureActivityHandler.java=UTF-8
+encoding//src/com/js/vmm/zxing/utils/InactivityTimer.java=UTF-8

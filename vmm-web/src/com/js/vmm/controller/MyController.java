@@ -27,4 +27,33 @@ public class MyController {
 		out.close();
 
 	}
+	
+	@RequestMapping(params = "method=testPost", method = RequestMethod.POST)
+	public void testPost(HttpServletRequest request,
+			HttpServletResponse response) throws IOException {
+
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		System.out.println(request.getParameterMap().toString());
+		out.print("Hello World!");
+
+		out.flush();
+		out.close();
+
+	}
+	
+	@RequestMapping(params = "method=saveRecord", method = RequestMethod.POST)
+	public void saveRecord(HttpServletRequest request,
+			HttpServletResponse response) throws IOException {
+
+		response.setContentType("text/html;charset=UTF-8");
+		PrintWriter out = response.getWriter();
+		System.out.println(request.getParameterMap().toString());
+		out.print("同步成功");
+
+		out.flush();
+		out.close();
+
+	}
+	
 }

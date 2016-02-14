@@ -4,12 +4,24 @@
 	android:layout_height="wrap_content"
 	android:padding="5dp"
 	>
+	
+    <ImageView 
+        android:id="@+id/id_item_dot"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/dot"/>
     
     <LinearLayout 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
+        android:padding="5dp"
         android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/id_item_dot"
         android:orientation="vertical">
         
         <TextView 
@@ -23,10 +35,10 @@
             android:id="@+id/id_item_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="left"
             android:text="2016-02-11"
             android:textColor="#444"
-            android:textSize="12sp"/>
+            android:textSize="15sp"/>
         
     </LinearLayout>
 

@@ -37,7 +37,7 @@ public class MyListAdaper extends ArrayAdapter<Record> {
 		mDate = (TextView) convertView.findViewById(R.id.id_item_date);
 		
 		mName.setText(mRecordList.get(position).getName()); 
-		mDate.setText(mRecordList.get(position).getScore());
+		mDate.setText(mRecordList.get(position).getDate());
 		
 		return convertView;
 	}

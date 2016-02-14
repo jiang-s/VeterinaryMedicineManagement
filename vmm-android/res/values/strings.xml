@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
 
-    <string name="app_name">VMM</string>
+    <string name="app_name">vmm</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="set_ip">请输入ip地址</string>
+    <string name="ip_address">ip地址</string>
+    <string name="isLoadImg">加载网络图片</string>
 
 </resources>
